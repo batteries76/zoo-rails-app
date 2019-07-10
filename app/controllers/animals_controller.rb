@@ -19,6 +19,8 @@ class AnimalsController < ApplicationController
 
   # GET /animals/1/edit
   def edit
+    @animal = Animal.find(params[:id])
+    authorize(@animal)
   end
 
   # POST /animals

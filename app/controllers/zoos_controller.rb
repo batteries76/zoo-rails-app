@@ -22,7 +22,7 @@ class ZoosController < ApplicationController
 
   # GET /zoos/1/edit
   def edit
-    
+
   end
 
   # POST /zoos
