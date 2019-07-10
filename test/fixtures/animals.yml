@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  species: MyString
+  zoo: one
+  name: MyString
+
+two:
+  species: MyString
+  zoo: two
+  name: MyString
